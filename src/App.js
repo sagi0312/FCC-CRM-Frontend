@@ -1,18 +1,14 @@
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import { AdminProvider } from "./hooks/AdminContext";
+import Signin from "./pages/login/Signin";
 
-import { ThemeProvider } from "./hooks/ThemeContext";
 function App() {
   return (
-    <ThemeProvider>
+    <AdminProvider>
       <div>
-        <nav>
-          <About />
-          <Contact />
-        </nav>
+        <Signin />
       </div>
-    </ThemeProvider>
+    </AdminProvider>
   );
 }
 

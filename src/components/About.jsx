@@ -1,15 +1,14 @@
 import React from "react";
-import useTheme from "../hooks/ThemeContext";
+import useAdmin from "../hooks/AdminContext";
 
 function About() {
-  const { theme, setTheme } = useTheme();
+  const { sideBar, setSideBar } = useAdmin();
   return (
     <div>
-      <button onClick={() => setTheme("Sunset")}>Sunset</button>
-      <button onClick={() => setTheme("Rainclouds")}>Rainclouds</button>
+      <button onClick={() => setSideBar((prev) => !prev)}>Set sidebar</button>
       <br />
       <br />
-      <p>{theme}</p>
+      <p>Sidebar: {sideBar.toString()}</p>
     </div>
   );
 }
