@@ -1,12 +1,12 @@
 import "./App.css";
+import PageLayout from "./components/layout/PageLayout";
 import { AdminProvider } from "./hooks/AdminContext";
-import Signin from "./pages/login/Signin";
 
 function App() {
   return (
     <AdminProvider>
       <div>
-        <Signin />
+        <PageLayout>Send different pages</PageLayout>
       </div>
     </AdminProvider>
   );
