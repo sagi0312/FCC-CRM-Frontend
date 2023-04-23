@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "date":"02/02/2023",
+        "startTime" : "2:30pm",
+        "endTime" : "4:30pm",
+        "members":"Anju Karanji",
+        "subject":"Budget discussion",
+        "activityType":"Phone Call",
+        "location" : "home",
+        "admin" : "Zac Horton",
+        "notes" : "Need to increase the funding. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id":2,
+        "date":"05/02/2023",
+        "startTime" : "1:30pm",
+        "endTime" : "2:30pm",
+        "members":"Jordan Daniel, Jimmy Kimmel, Jimmy Holden",
+        "subject":"First Meeting",
+        "activityType":"FCC Woodstock",
+        "location" : "The Circuit",
+        "admin" : "Zac Horton",
+        "notes":"Highly Interested. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. "
+    },
+    {
+        "id":3,
+        "date":"05/03/2023",
+        "startTime" : "1:00pm",
+        "endTime" : "1:30pm",
+        "members":"Jim Galligan",
+        "subject":"First Meeting",
+        "activityType":"FCC Woodstock",
+        "location" : "The Circuit",
+        "admin" : "Zac Horton",
+        "notes":"Highly Interested. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. "
+    }
+]

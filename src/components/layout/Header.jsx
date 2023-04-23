@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "./Logo-crm.png";
+import logo from "../../assets/images/Logo-crm.png";
 
 const Header = () => {
   return (
